@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+# Card Sentinel AI Guard
 
-## Project info
+An intelligent, AI-powered web application designed to enhance security and monitoring using smart card detection and analysis. Built with modern frontend technologies for high performance and seamless user experience.
 
-**URL**: https://lovable.dev/projects/31e9629a-c593-496a-9551-6af9a11f5f06
+## 🔍 Overview
 
-## How can I edit this code?
+**Card Sentinel AI Guard** is a web application that leverages AI models and responsive UI components to detect, verify, and manage card-based interactions. The project is structured for scalability and rapid development using:
 
-There are several ways of editing your application.
+* ⚡️ Vite – blazing fast development environment
+* 🎨 Tailwind CSS – utility-first styling
+* 🧠 TypeScript – type-safe codebase
+* 🔍 Lovable.dev – AI-assisted code generation and management platform
 
-**Use Lovable**
+## 📆 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/31e9629a-c593-496a-9551-6af9a11f5f06) and start prompting.
+* Real-time card detection
+* AI-driven analysis and alert system
+* Clean, responsive UI
+* Modular and maintainable architecture
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Ensure you have the following installed:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* [Node.js](https://nodejs.org/) (v16 or higher)
+* [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+git clone https://github.com/Abinath08/card-sentinel-ai-guard.git
+cd card-sentinel-ai-guard
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. Install dependencies:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
+# or
+pnpm install
+```
+
+3. Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Visit `http://localhost:3000` in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 💠 Project Structure
 
-**Use GitHub Codespaces**
+```bash
+├── public/               # Static files
+├── src/                  # Application source code
+│   ├── components/       # Reusable components
+│   ├── pages/            # Route-based pages
+│   ├── assets/           # Images, icons, etc.
+│   └── main.tsx          # App entry point
+├── tailwind.config.ts    # Tailwind CSS configuration
+├── vite.config.ts        # Vite configuration
+└── tsconfig.json         # TypeScript configuration
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## 📄 License
 
-This project is built with:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🤝 Contributing
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/31e9629a-c593-496a-9551-6af9a11f5f06) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
